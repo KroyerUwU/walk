@@ -1,10 +1,16 @@
 int a = 400;
+int b = 100;
+
 
 void draw(){
+  clear();
   println(a);
-  ellipse(a,10,40,50);
+  ellipse(a,b,50,50);
+b= b+20;
+
+
 }
 
 void setup(){
-  size(500,500);
+  size(1000,1000);
 }
